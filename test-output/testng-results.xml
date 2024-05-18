@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[ChromeBrowser Opened]]>
+    </line>
+    <line>
+      <![CDATA[Maximize the Browser]]>
+    </line>
+    <line>
+      <![CDATA[Wait statement added to each step]]>
+    </line>
+    <line>
+      <![CDATA[DemoWeb Shop Opened]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-18T22:41:07 IST" name="Default suite" finished-at="2024-05-18T22:41:16 IST" duration-ms="8800">
+    <groups>
+    </groups>
+    <test started-at="2024-05-18T22:41:07 IST" name="Default test" finished-at="2024-05-18T22:41:16 IST" duration-ms="8800">
+      <class name="TestNg.FetchingDataFromExternalFile">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:TestNg.FetchingDataFromExternalFile@3023df74]" started-at="2024-05-18T22:41:07 IST" name="precondition" finished-at="2024-05-18T22:41:14 IST" duration-ms="6872" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ChromeBrowser Opened]]>
+            </line>
+            <line>
+              <![CDATA[Maximize the Browser]]>
+            </line>
+            <line>
+              <![CDATA[Wait statement added to each step]]>
+            </line>
+            <line>
+              <![CDATA[DemoWeb Shop Opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="loginDWS()[pri:0, instance:TestNg.FetchingDataFromExternalFile@3023df74]" started-at="2024-05-18T22:41:14 IST" name="loginDWS" finished-at="2024-05-18T22:41:16 IST" duration-ms="1728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDWS -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestNg.FetchingDataFromExternalFile@3023df74]" started-at="2024-05-18T22:41:16 IST" name="postCondition" finished-at="2024-05-18T22:41:16 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- TestNg.FetchingDataFromExternalFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
